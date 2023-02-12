@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% block title %}
+    Welcome to the GadgetHub
+{% endblock %}
+{% block content %}
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    nav a {
+      padding: 10px 20px;
+      text-decoration: none;
+      color: black;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About The creator</h1>
+  </header>
+  <nav>
+    <ul>
+        <img src="static/Himanshu.png" alt="owner image" width="150" height="150">
+      
+    </ul>
+  </nav>
+  <main>
+    <section id="mission">
+      <h2>Our Mission</h2>
+      <p>Our mission is to create an online marketplace that provides consumers with access to the latest and greatest gadgets, while also offering them a safe, secure, and easy-to-use platform to conduct their transactions. We believe that everyone should have access to innovative technology, and that buying and selling gadgets should be a hassle-free process.</p>
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Vast selection of gadgets from top brands</li>
+        <li>User-friendly interface for easy browsing and purchasing</li>
+        <li>Safe and secure payment options</li>
+        <li>Innovative tools for buying and selling gadgets</li>
+        <li>Dedicated customer support team</li>
+      </ul>
+    </section>
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>I am the creator of GadgetHub, a tech enthusiast with a passion for innovation and entrepreneurship. I have always been fascinated by the world of gadgets and technology, and I believe that everyone should have access to the latest and greatest gadgets on the market. I created Himanshu Market as a way to bring together gadget enthusiasts from all over the world, and to provide them with a safe and easy-to-use platform for buying and selling their favorite gadgets. </p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Himanshu Market</p>
+  </footer>
+</body>
+{% endblock %}
